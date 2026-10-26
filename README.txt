@@ -1,54 +1,30 @@
-CAPSULE AP — APPLICATION DE RÉVISION IPHONE / L3 ADMINISTRATION PUBLIQUE
-Version 1.0 — 25 octobre 2026
+CAPSULE AP — Version 2.0 | LICENCE 3 ADMINISTRATION PUBLIQUE 2026–2027
 
-CONTENU
-- 11 capsules S5 (droit constitutionnel, politiques publiques, nouvelle gestion publique,
-  droit de la fonction publique, ressources humaines) et 44 questions explicatives.
-- Chaque capsule : cours synthétisé et sourcé, environ 10 minutes de lecture attentive,
-  4 questions à choix unique ou multiple, correction argumentée par option et pilule de théorie.
-- Résultats, rappels des erreurs et notes personnelles sauvegardés localement.
-- Export/import de la progression et import de nouvelles capsules par JSON.
-- Interface prévue pour l'écran d'un iPhone ; application hors connexion après première visite.
+217 capsules de micro-cours et 868 questions originales.
+Semestres S5 et S6. Cours français, finances publiques, institutions européennes,
+histoire, fonction publique, GRH, anglais, politiques publiques, comptabilité analytique,
+numérique PIX, TEDS, méthodes d'examen, etc.
 
-ESSAI SANS INSTALLATION
-Pour tester sur un ordinateur, ouvrir Capsule_AP_DEMO.html (fichier fourni séparément).
-Le fichier index.html a besoin des fichiers voisins pour fonctionner correctement.
+INSTALLATION SUR IPHONE
+1) Placer tous les fichiers du dossier sur un site HTTPS (GitHub Pages ou Netlify).
+2) Ouvrir le lien dans Safari, puis Partager > Sur l'écran d'accueil > Ajouter.
+3) Les réponses sont conservées localement sur l'appareil, sans serveur.
+4) Exporter les résultats depuis les Options pour sauvegarder ou transférer sur un autre appareil.
 
-INSTALLER COMME UNE APPLICATION IPHONE — HÉBERGEMENT GRATUIT
-1. Créer un compte (ou se connecter) sur https://github.com
-2. Créer un nouveau dépôt PUBLIC nommé « capsule-ap ».
-3. Y envoyer tous les fichiers de ce dossier : index.html, app.js, style.css,
-   lessons.js, manifest.webmanifest, sw.js, icon-192.png, icon-512.png.
-   Important : les fichiers doivent être à la racine du dépôt, PAS dans un sous-dossier.
-4. Dans GitHub : Settings > Pages > Build and deployment > Deploy from a branch
-   puis Main / (root) > Save.
-5. Ouvrir https://VOTRE-PSEUDO.github.io/capsule-ap/ quand la publication est active.
-6. Sur l'iPhone, ouvrir ce lien avec SAFARI > Partager > Sur l'écran d'accueil >
-   activer « Ouvrir comme app web » > Ajouter.
-7. Ouvrir ensuite Capsule AP depuis l'écran d'accueil. Une première visite
-   en ligne permet de mettre en cache les fichiers pour l'utilisation hors connexion.
+MISE A JOUR DU PROTOTYPE
+- Sur GitHub, remplacer index.html, lessons.js, app.js, style.css, sw.js, etc.
+- NE PAS rendre publics les fichiers sources CNED téléchargés dans le dossier L3 AP.rar.
+- L'application utilise des synthèses et exercices originaux et indique ses références de travail.
+- Le dossier ne contient aucun PDF CNED/IPAG complet.
 
-IMPORTANT : GitHub Pages héberge des pages publiques. Ne publiez ni dossier CNED
-intégral ni informations personnelles dans le dépôt ! Les synthèses ici sont
-originales et ne contiennent pas vos relevés ou informations privées.
+IMPORTANT
+Les capsules sont des synthèses originales pour réviser, pas un cours officiel exhaustif
+ni un support qui remplace les documents CNED. Certains domaines demandent une lecture
+approfondie, de la pratique rédactionnelle et des calculs. Les quiz vérifient les bases,
+mais ne constituent pas une prédiction des sujets d'examen. Les citations de pages restent
+les pages confirmées sur les capsules d'origine ; les nouvelles fiches indiquent un repère
+par titre/chapitre à rechercher au sommaire.
+La matière TEDS ne comportait pas de support dédié dans l'archive ; c'est un complément.
+La fiche 12 d'anglais n'était pas fournie ; son contenu est un complément.
 
-NOTES ET DONNÉES
-Vos résultats sont uniquement stockés dans la mémoire locale du navigateur,
-non dans votre compte Gmail ou chez nous. Si vous videz les données Safari,
-vos scores et notes peuvent disparaître : utiliser l'export de progression.
-L'importation d'un nouveau fichier de capsules s'effectue via « Options ».
-Ces capsules sont un outil personnel ; elles ne remplacent pas les programmes,
-corrections ni consignes officiels de l'IPAG/CNED.
-
-FICHIERS CLÉS
-index.html = page de lancement
-style.css = design mobile
-app.js = logique de quiz, correction, stockage et navigation
-lessons.js = capsules et questions
-sw.js = disponibilité hors connexion
-manifest.webmanifest + icônes = installation sur l'écran d'accueil
-
-PROCHAINES ÉTAPES POSSIBLES
-Ajouter les cours S6, un mode questions aléatoires / révision espacée,
-un calendrier synchronisé et une sauvegarde sur compte personnel (ces trois
-fonctions nécessiteront une version supérieure avec, pour certaines, un serveur).
+Version 2.0 – 26 octobre 2026.
